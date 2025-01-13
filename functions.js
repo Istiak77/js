@@ -39,3 +39,12 @@ function returnDay(num) {
 //this function takes in one parameter (a number from 1-7) and returns the day of the week (1 is Monday, 2 is Tuesday, etc.) 
 //If the number is less than 1 or greater than 7, the function should return null. 
 //In some countries Sunday is treated as the first day of the week, but for this exercise we will use Monday as the first day.
+
+[3,5,7,8,9,11,43,5345,545].reduce((accumulator, currentValue) =>
+{
+return accumulator + currentValue;
+});
+
+//reducer function will take the first two values from the array and add them
+//then it'll take the return value and add it to the next value
+
